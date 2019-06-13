@@ -8,7 +8,7 @@ fs.readFile('demotext.txt', function (err, data) {
   console.log(`异步读取: ${data}`)
 })
 
-// 读取文件，同步
+// 读取文件，同步ccc
 var data = fs.readFileSync('demotext.txt')
 console.log(`同步读取：${data}`)
 
